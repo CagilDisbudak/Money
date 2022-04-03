@@ -9,7 +9,10 @@ public class Drag : MonoBehaviour
     private Vector3 offset;
     private Transform toDrag;
 
-    // Update is called once per frame
+
+   //Ogelerin ekrana gore harketi saglanir.
+
+
     void Update()
     {
 

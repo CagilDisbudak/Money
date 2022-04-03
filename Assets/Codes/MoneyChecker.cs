@@ -10,7 +10,10 @@ public class MoneyChecker : MonoBehaviour
     GameObject FakeMoney;
     GameObject UvMoney;
 
-    // Start is called before the first frame update
+    
+    //Random bir durum verilerek paranin altindaki iki diger sprite'dan digerini aktive ederiz. Bunu da yesil olan paranin ustundeki collider sayaesinde yapariz. 
+    // Collider Triggerlandiginda yesil para kendisini gizler ve altadaki iki ogeden biri ortaya cikar.
+
     void Start()
     {
         System.Random random = new System.Random();

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class BackToGame : MonoBehaviour
 {
    
+    //Scene kontrolu yaparak ana oyuna geri donus saglanir.
 
     public void NextScene()
     {
